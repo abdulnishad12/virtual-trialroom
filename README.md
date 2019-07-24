@@ -1,9 +1,8 @@
-# DUP Mobile Application
-![DUP-logo](https://i.postimg.cc/3JccYRdj/ic-launcher.png)
+# Krips Mobile Application
 
 
 ## Description
-DUP is a virtual dressing room application for >= Android 6.0.
+Krips is a virtual dressing room application for >= Android 6.0.
 
 It allows users to see how an outfit will look on them by using image processing and a body pose estimation model.
 
@@ -17,7 +16,7 @@ It allows users to see how an outfit will look on them by using image processing
 <br/><br/>
 ## How does it work ?
 ### Add Outfit
-DUP allows users to add their own outfit from gallery.<br/>
+Krips allows users to add their own outfit from gallery.<br/>
 The selected outfit is processed according to a sensitivity rate given by the user.<br/>
 User selects a category to store outfit.<br/>
 The outfit stored in database.<br/><br/>
@@ -32,7 +31,7 @@ Image processing methods to extract outfit given below;
   * Crop largest contour
 
 ### Fit Outfit on Camera Preview
-DUP uses a tensorflow-lite model to estimate certain points on user's body during camera preview.<br/> 
+Krips uses a tensorflow-lite model to estimate certain points on user's body during camera preview.<br/> 
 By using these estimated points, the outfit is placed on screen by calculating its size and position.<br/><br/>
 
 
@@ -57,7 +56,16 @@ According to its category, the outfit size and position are calculated by using;
 * TensorFlow-Lite
 * OpenCV 4.1
 * SQLite
+* ANdroid API 27
 
+## How to Run
+* Install Python
+* Install pip [ https://pip.pypa.io/en/stable/installing/ ]
+* pip install tensorflow==2.0.0-beta1 
+* clone the code
+* open the project in Android Studio
+* Solve the Vulnerabilities 
+* Build and RUN
 
 <br/><br/>
 ## Future Development
